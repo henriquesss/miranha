@@ -1,6 +1,6 @@
 # Miranha
 
-<img src="assets/images/miranha.gif" alt="Apresentação do projeto>
+<img src="assets/images/miranha.gif" alt="Apresentação do projeto />
 
 Bot que conta trocadilhos conforme input do usuário, pronto! É mais divertido do que parece e ainda ta em fase inicial, visando o aprendizado e é claro, a diversão do processo. 
 
