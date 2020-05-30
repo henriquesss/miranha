@@ -1,4 +1,4 @@
-const trocadilhos = require("./trocadilhos.json");
+const puns = require("./trocadilhos.json");
 require('dotenv').config();
 
 const botgram = require("botgram");
@@ -31,12 +31,12 @@ bot.command("start", function (msg, reply, next) {
 });
 
 bot.text(function(msg, reply) {
-  for(var i = 0; i < trocadilhos.length; i++) {
-    ramdom(trocadilhos);
-    if(trocadilhos[i].pergunta.includes(msg.text)) {
+  for(var i = 0; i < puns.length; i++) {
+    ramdom(puns);
+    if(puns[i].pergunta.includes(msg.text)) {
         console.log("Achou");
-        reply.text(trocadilhos[i].pergunta)
-        setTimeout(() => { reply.text(trocadilhos[i].resposta) }, 6000);
+        reply.text(puns[i].pergunta)
+        setTimeout(() => { reply.text(puns[i].resposta) }, 6000);
         return;
     }
   }
