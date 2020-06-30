@@ -11,6 +11,8 @@ Bot que conta trocadilhos conforme input do usuário, pronto! É mais divertido 
 
 - Crie um arquivo chamado `.env` com base no arquivo `env.example` 
 
+- Para conseguir seu próprio token, basta criar o seu bot falando com o <strong>Bot Father</strong>, no telegram
+
 - Rode `npm start` e seja feliz! 
 
 
