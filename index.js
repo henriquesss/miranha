@@ -46,7 +46,6 @@ bot.text(function(msg, reply) {
   reply.text("Manda outra aí:")
 })
 
-
 //Precauções
 bot.contact(function (msg, reply, next) {
   console.log("Usuário %s mandou o contato:", msg.from.firstname);
@@ -60,7 +59,7 @@ bot.photo(function(msg, reply, next){
 })
 
 bot.video(function (msg, reply, next) {
-  reply.text("Não vou nem abrir, deve ser gemidão");
+  reply.text("Não adianta mandar vídeo, não caio mais no gemidão");
 });
 
 bot.location(function (msg, reply, next) {
@@ -69,11 +68,11 @@ bot.location(function (msg, reply, next) {
 });
 
 bot.command(function(msg, reply) {
-   reply.text("Não tem comando secreto, desiste")
+   reply.text("Não tem comando secreto, desiste cara!")
 })
 
 bot.command("comandosecreto", function (msg, reply, next) {
-  reply.text("Ora ora parece que temos um sheroque homes por aqui")
+  reply.text("Ora ora, parece que temos um sheroque homes por aqui")
   reply.sticker("BQADAgAD3gAD9HsZAAFphGBFqImfGAI");
 });
 
